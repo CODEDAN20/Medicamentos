@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getion de medicamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Inventario de medicamentos</h1>
+    <form id="Formulario">
+        <input type="text" id="nambre" placeholder="nambre" required>
+        <input type="text" id="codigo" placeholder="codigo" required>
+        <input type="number" id="cantidad" placeholder="cantidad" required>
+        <input type="date" id="vencimiento" required>
+        <input type="text" id="laboratorio" placeholder="laboratorio" required>
+        <button type="submit">Guardar</button>
+    </form>
+    <table id="tablaMedicamentos">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Código</th>
+                <th>Cantidad</th>
+                <th>Vence</th>
+                <th>Laboratorio</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="app.js"></script>
+</html>
